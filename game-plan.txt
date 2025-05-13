@@ -1,0 +1,19 @@
+Simulator Game to give Lobotomies
+
+Progression
+Stage 1:
+Start with small lobotomy business and basic equipment
+Satisfy customers to earn Brain Cells ($)
+Give yourself lobotomies, which will make giving lobotomies harder, increasing risk and reward
+
+Stage 2:
+Expand your lobotomy business and buy new equipment
+Begin hiring employees and lobotomize them to upgrade them
+Receive contracts to lobotomize random people requested by clients (totally safe and not life-altering)
+
+Stage 3:
+Receive search & seizure warrant from authorities
+Get business shut down for "illegal activities" (This acts as prestige and only activates after accepting contract to lobotomize the mayor)
+
+Prestige
+After restarting the business in a new country, earn more brain cells per lobotomy and have access to more advanced equipment

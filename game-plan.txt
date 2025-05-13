@@ -16,4 +16,7 @@ Receive search & seizure warrant from authorities
 Get business shut down for "illegal activities" (This acts as prestige and only activates after accepting contract to lobotomize the mayor)
 
 Prestige
-After restarting the business in a new country, earn more brain cells per lobotomy and have access to more advanced equipment
+After restarting the business in a new country, earn more brain cells per lobotomy and have access to more advanced equipment and employees
+
+Country Progression: Mexico, United States, Russia, China, India, Egypt, Japan
+Once all countries have been completed, create an empire of lobotomizing throughout several countries.

@@ -13,10 +13,30 @@ Receive contracts to lobotomize random people requested by clients (totally safe
 
 Stage 3:
 Receive search & seizure warrant from authorities
-Get business shut down for "illegal activities" (This acts as prestige and only activates after accepting contract to lobotomize the mayor)
+Get business shut down for "illegal activities" (This acts as prestige and only activates after accepting a risky contract)
 
 Prestige
 After restarting the business in a new country, earn more brain cells per lobotomy and have access to more advanced equipment and employees
 
 Country Progression: Mexico, United States, Russia, China, India, Egypt, Japan
-Once all countries have been completed, create an empire of lobotomizing throughout several countries.
+Once all countries have been completed, create an empire of lobotomy-giving centers throughout several countries
+
+Giving lobotomies
+Lobotomies are given by successfully completing a randomly selected minigame from a collection of them
+
+Minigames [Difficulty: EASY]
+Clicker: Click the brain enough times.
+Ipad: Choose the correct content to display on the Ipad.
+
+Minigames [Difficulty: MEDIUM]
+Classic: Stick a needle through the brain to reach the goal point without accidentally touching the walls.
+Aim: Throw a needle at a moving brain with limited chances.
+Ring Toss: Throw brains at needles and get them to land on it with limited chances.
+
+Minigames [Difficulty: HARD]
+Standoff: Shrink down and enter the patient's brain. Fight off their braincells until enough have been neutralized without losing.
+Lobotomy Dash: Complete a section of a "Joe-Metri Dash" level.
+Color Screen: Flash bright colors at the patient, changing the colors at the correct times. The patient's eyes will indicate if the color needs to be changed.
+
+
+

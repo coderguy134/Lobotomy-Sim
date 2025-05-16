@@ -35,13 +35,16 @@
   },
   "name":"Lobotomy Simulator",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
+    {"id":{"name":"RV_Minigame","path":"rooms/RV_Minigame/RV_Minigame.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
+    {"roomId":{"name":"RV_Minigame","path":"rooms/RV_Minigame/RV_Minigame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,6 +35,7 @@
   },
   "name":"Lobotomy Simulator",
   "resources":[
+    {"id":{"name":"ClickerBrain","path":"objects/ClickerBrain/ClickerBrain.yy",},},
     {"id":{"name":"ClickerMinigame","path":"rooms/ClickerMinigame/ClickerMinigame.yy",},},
     {"id":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
     {"id":{"name":"brain_clicker","path":"sprites/brain_clicker/brain_clicker.yy",},},
@@ -43,8 +44,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
     {"roomId":{"name":"ClickerMinigame","path":"rooms/ClickerMinigame/ClickerMinigame.yy",},},
+    {"roomId":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

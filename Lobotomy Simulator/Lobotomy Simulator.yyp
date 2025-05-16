@@ -36,17 +36,21 @@
   "name":"Lobotomy Simulator",
   "resources":[
     {"id":{"name":"ClickerBrain","path":"objects/ClickerBrain/ClickerBrain.yy",},},
+    {"id":{"name":"Customer","path":"objects/Customer/Customer.yy",},},
+    {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},
+    {"id":{"name":"Lobotomizer","path":"objects/Lobotomizer/Lobotomizer.yy",},},
     {"id":{"name":"ClickerMinigame","path":"rooms/ClickerMinigame/ClickerMinigame.yy",},},
     {"id":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
     {"id":{"name":"brain_clicker","path":"sprites/brain_clicker/brain_clicker.yy",},},
     {"id":{"name":"customer1","path":"sprites/customer1/customer1.yy",},},
+    {"id":{"name":"IcePick","path":"sprites/IcePick/IcePick.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"ClickerMinigame","path":"rooms/ClickerMinigame/ClickerMinigame.yy",},},
     {"roomId":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
+    {"roomId":{"name":"ClickerMinigame","path":"rooms/ClickerMinigame/ClickerMinigame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

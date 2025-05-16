@@ -38,6 +38,7 @@
     {"id":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
     {"id":{"name":"RV_Minigame","path":"rooms/RV_Minigame/RV_Minigame.yy",},},
     {"id":{"name":"brain_clicker","path":"sprites/brain_clicker/brain_clicker.yy",},},
+    {"id":{"name":"customer1","path":"sprites/customer1/customer1.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},
   ],
   "resourceType":"GMProject",

@@ -37,8 +37,8 @@
   "resources":[
     {"id":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
     {"id":{"name":"RV_Minigame","path":"rooms/RV_Minigame/RV_Minigame.yy",},},
+    {"id":{"name":"brain_clicker","path":"sprites/brain_clicker/brain_clicker.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

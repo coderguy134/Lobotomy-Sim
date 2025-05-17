@@ -8,5 +8,3 @@ image_speed = 0
 
 clicks = 20
 timer = 15
-
-randomize()

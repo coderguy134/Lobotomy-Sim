@@ -35,6 +35,8 @@
   },
   "name":"Lobotomy Simulator",
   "resources":[
+    {"id":{"name":"HighQuality","path":"fonts/HighQuality/HighQuality.yy",},},
+    {"id":{"name":"BrainCell","path":"objects/BrainCell/BrainCell.yy",},},
     {"id":{"name":"ClickerBrain","path":"objects/ClickerBrain/ClickerBrain.yy",},},
     {"id":{"name":"Customer","path":"objects/Customer/Customer.yy",},},
     {"id":{"name":"Flashbang","path":"objects/Flashbang/Flashbang.yy",},},
@@ -44,6 +46,7 @@
     {"id":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
     {"id":{"name":"ResetDraw","path":"scripts/ResetDraw/ResetDraw.yy",},},
     {"id":{"name":"brain_clicker","path":"sprites/brain_clicker/brain_clicker.yy",},},
+    {"id":{"name":"BrainCells","path":"sprites/BrainCells/BrainCells.yy",},},
     {"id":{"name":"customer1","path":"sprites/customer1/customer1.yy",},},
     {"id":{"name":"IcePick","path":"sprites/IcePick/IcePick.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},

@@ -60,14 +60,18 @@ if impact > 0 {
 		game_set_speed(60, gamespeed_fps)
 		
 		room_goto(ClickerMinigame)
-		impact = -1
 	}
 }
-if place_meeting(x, y, Customer) and sqrt(power(velocityx, 2) + power(velocityy, 2)) > 30 and impact != -1 {
-	layer_set_visible("Greyscale", true)
-	layer_set_visible("EdgeDetect", true)
+var target = instance_place(x, y, Customer)
+if instance_exists(target) {
+	if target.lobotomizable and sqrt(power(velocityx, 2) + power(velocityy, 2)) > 50 {
+		
+		layer_set_visible("Greyscale", true)
+		layer_set_visible("EdgeDetect", true)
 	
-	game_set_speed(2, gamespeed_fps)
+		game_set_speed(2, gamespeed_fps)
 	
-	impact = 1
+		impact = 1
+		target.lobotomizable = false
+	}
 }

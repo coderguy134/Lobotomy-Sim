@@ -10,13 +10,15 @@ if x > 160 and lobotomized and walk {
 	x -= 3
 }
 if x <= 160 and lobotomized {
+	GameManager.alarm[0] = irandom_range(60, 120)
 	instance_destroy()
 }
 
-if lobotomizable == false and x == 640 {
-	image_index = 1
+if lobotomizable == false and x == 640 and lobotomized == false {
 	lobotomized = true
 	walk = false
+	
+	alarm[1] = 1
 }
 
 if lobotomized and not walk {

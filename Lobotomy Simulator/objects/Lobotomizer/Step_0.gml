@@ -49,3 +49,29 @@ if y < 0 {
 if y > 540 {
 	y = 540
 }
+
+if impact > 0 {
+	impact -= 1
+	
+	if impact == 0 {
+		layer_set_visible("Greyscale", false)
+		layer_set_visible("EdgeDetect", false)
+		
+		game_set_speed(60, gamespeed_fps)
+		
+		room_goto(ClickerMinigame)
+	}
+}
+var target = instance_place(x, y, Customer)
+if instance_exists(target) {
+	if target.lobotomizable and sqrt(power(velocityx, 2) + power(velocityy, 2)) > 50 {
+		
+		layer_set_visible("Greyscale", true)
+		layer_set_visible("EdgeDetect", true)
+	
+		game_set_speed(2, gamespeed_fps)
+	
+		impact = 1
+		target.lobotomizable = false
+	}
+}

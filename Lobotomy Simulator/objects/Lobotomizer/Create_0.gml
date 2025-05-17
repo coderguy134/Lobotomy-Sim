@@ -7,3 +7,5 @@ prevon = false
 rotation = 0
 velocityx = 0
 velocityy = 0
+
+impact = 0

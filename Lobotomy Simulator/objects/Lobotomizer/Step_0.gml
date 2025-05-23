@@ -54,30 +54,19 @@ if impact > 0 {
 	impact -= 1
 	
 	if impact == 0 {
-		/*
-		layer_set_visible("Greyscale", false)
-		layer_set_visible("EdgeDetect", false)
-		*/
-		
 		layer_shader("General", -1)
 		layer_shader("Customers", -1)
 		layer_shader("Background", -1)
 		
 		game_set_speed(60, gamespeed_fps)
 		
-		audio_play_sound(LobotomySFX, 0, false)
+		//audio_play_sound(LobotomySFX, 0, false)
 		room_goto([ClickerMinigame, IpadMinigame][irandom_range(0, 1)])
 	}
 }
 var target = instance_place(x, y, Customer)
 if instance_exists(target) {
 	if target.lobotomizable and sqrt(power(velocityx, 2) + power(velocityy, 2)) > 50 {
-		
-		/*
-		layer_set_visible("Greyscale", true)
-		layer_set_visible("EdgeDetect", true)
-		*/
-		
 		layer_shader("General", FullBlack)
 		layer_shader("Customers", FullBlack)
 		layer_shader("Background", FullWhite)

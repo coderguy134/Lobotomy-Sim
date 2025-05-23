@@ -1,5 +1,5 @@
-image_xscale = max(ceil(power(value, 1/4)) + random_range(-1, 1), 3)
-image_yscale = max(ceil(power(value, 1/4)) + random_range(-1, 1), 3)
+image_xscale = min(max(ceil(power(value, 1/4)) + random_range(-1, 1), 3), 30)
+image_yscale = min(max(ceil(power(value, 1/4)) + random_range(-1, 1), 3), 30)
 
 image_index = irandom_range(0, 5)
 image_angle = irandom_range(0, 360)

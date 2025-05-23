@@ -1,7 +1,7 @@
 draw_set_color(make_color_rgb(181, 145, 0))
-draw_rectangle(4, 4, 192 + (string_length(string(global.braincells)) - 1) * 24, 56, false)
+draw_rectangle(4, 4, 192 + (string_length(string(global.braincells)) - 1) * 26.5, 56, false)
 draw_set_color(make_color_rgb(110, 71, 43))
-draw_rectangle(6, 6, 190 + (string_length(string(global.braincells)) - 1) * 24, 54, false)
+draw_rectangle(6, 6, 190 + (string_length(string(global.braincells)) - 1) * 26.5, 54, false)
 
 draw_sprite_ext(BrainCells, 0, 64, 32, 8, 8, 0, c_white, 1)
 

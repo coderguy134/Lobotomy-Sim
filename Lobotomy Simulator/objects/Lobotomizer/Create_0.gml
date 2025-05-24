@@ -1,4 +1,4 @@
-cimage_xscale = 3
+image_xscale = 3
 image_yscale = 3
 
 mouseoffset = [0, 0]

@@ -39,6 +39,7 @@
     {"id":{"name":"BrainCell","path":"objects/BrainCell/BrainCell.yy",},},
     {"id":{"name":"BrainrotIpad","path":"objects/BrainrotIpad/BrainrotIpad.yy",},},
     {"id":{"name":"ClickerBrain","path":"objects/ClickerBrain/ClickerBrain.yy",},},
+    {"id":{"name":"crosshair","path":"objects/crosshair/crosshair.yy",},},
     {"id":{"name":"Customer","path":"objects/Customer/Customer.yy",},},
     {"id":{"name":"Flashbang","path":"objects/Flashbang/Flashbang.yy",},},
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},

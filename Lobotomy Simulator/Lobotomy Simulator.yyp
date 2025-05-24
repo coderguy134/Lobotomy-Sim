@@ -65,10 +65,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"NeedleTossMinigame","path":"rooms/NeedleTossMinigame/NeedleTossMinigame.yy",},},
     {"roomId":{"name":"RV_Lobbymy","path":"rooms/RV_Lobbymy/RV_Lobbymy.yy",},},
     {"roomId":{"name":"ClickerMinigame","path":"rooms/ClickerMinigame/ClickerMinigame.yy",},},
     {"roomId":{"name":"IpadMinigame","path":"rooms/IpadMinigame/IpadMinigame.yy",},},
-    {"roomId":{"name":"NeedleTossMinigame","path":"rooms/NeedleTossMinigame/NeedleTossMinigame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,8 +1,22 @@
-x = 480
-y = 256
+x = 96
 
-image_xscale = 3
-image_yscale = 3
+if y == 448 {
+	image_xscale = 3
+	image_yscale = 3
+	speed = 2.5
+}
+if y == 256 {
+	image_xscale = 2
+	image_yscale = 2
+	speed = 5
+}
+if y == 64 {
+	image_xscale = 1
+	image_yscale = 1
+	speed = 7.5
+}
 
-targetpos = [irandom_range(96, 864), irandom_range(64, 448)]
-startpos = [x, y]
+targetpos = 864
+startpos = x
+
+window_set_fullscreen(true)

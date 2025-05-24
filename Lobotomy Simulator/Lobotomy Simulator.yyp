@@ -62,6 +62,7 @@
     {"id":{"name":"IcePick","path":"sprites/IcePick/IcePick.yy",},},
     {"id":{"name":"Ipad","path":"sprites/Ipad/Ipad.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},
+    {"id":{"name":"xrosshare_spr","path":"sprites/xrosshare_spr/xrosshare_spr.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

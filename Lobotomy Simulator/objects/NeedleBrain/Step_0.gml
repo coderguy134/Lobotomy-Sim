@@ -9,7 +9,3 @@ if abs(targetpos - x) < 5 {
 	}
 	startpos = x
 }
-
-if mouse_check_button_pressed(mb_left) and y == 448 {
-	instance_create_layer(mouse_x, mouse_y, "Needle", NeedleThrow)
-}

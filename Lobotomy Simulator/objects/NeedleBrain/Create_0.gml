@@ -1,11 +1,11 @@
 x = 96
 
-if y == 448 {
+if y == 320 {
 	image_xscale = 3
 	image_yscale = 3
 	speed = 2.5
 }
-if y == 256 {
+if y == 192 {
 	image_xscale = 2
 	image_yscale = 2
 	speed = 5

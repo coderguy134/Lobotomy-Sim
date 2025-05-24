@@ -58,6 +58,7 @@
     {"id":{"name":"BrainrotIcons","path":"sprites/BrainrotIcons/BrainrotIcons.yy",},},
     {"id":{"name":"customer1","path":"sprites/customer1/customer1.yy",},},
     {"id":{"name":"HitStopExplosion","path":"sprites/HitStopExplosion/HitStopExplosion.yy",},},
+    {"id":{"name":"IcePick_Throw","path":"sprites/IcePick_Throw/IcePick_Throw.yy",},},
     {"id":{"name":"IcePick","path":"sprites/IcePick/IcePick.yy",},},
     {"id":{"name":"Ipad","path":"sprites/Ipad/Ipad.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},

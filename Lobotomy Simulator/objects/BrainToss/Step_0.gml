@@ -38,12 +38,16 @@ if phase == 3 {
 		if point_in_rectangle(NeedleTarget.x, NeedleTarget.y, bbox_left, bbox_top, bbox_right, bbox_bottom) {
 			if point_distance(x, y, NeedleTarget.x, NeedleTarget.y) > 32 {
 				global.addamountmulti = 1
+				global.starsadd = 2
+				
 			}
 			else if point_distance(x, y, NeedleTarget.x, NeedleTarget.y) > 16 {
 				global.addamountmulti = 2
+				global.starsadd = 3
 			}
 			else {
 				global.addamountmulti = 3
+				global.starsadd = 4
 			}
 			
 			if impact == 1 {
@@ -66,6 +70,7 @@ if phase == 3 {
 		}
 		else {
 			global.addamountmulti = 0
+			global.starsadd = 1
 			
 			instance_create_depth(0, 0, -100, Flashbang, {persist : true, roomgoto : RV_Lobbymy})
 		}

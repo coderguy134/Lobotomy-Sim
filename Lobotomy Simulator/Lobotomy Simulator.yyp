@@ -42,6 +42,7 @@
   "name":"Lobotomy Simulator",
   "resources":[
     {"id":{"name":"HighQuality","path":"fonts/HighQuality/HighQuality.yy",},},
+    {"id":{"name":"SmallText","path":"fonts/SmallText/SmallText.yy",},},
     {"id":{"name":"BrainCell","path":"objects/BrainCell/BrainCell.yy",},},
     {"id":{"name":"BrainrotIpad","path":"objects/BrainrotIpad/BrainrotIpad.yy",},},
     {"id":{"name":"BrainToss","path":"objects/BrainToss/BrainToss.yy",},},
@@ -97,6 +98,7 @@
     {"id":{"name":"JoeMetriSpike","path":"sprites/JoeMetriSpike/JoeMetriSpike.yy",},},
     {"id":{"name":"LobotomyIcon","path":"sprites/LobotomyIcon/LobotomyIcon.yy",},},
     {"id":{"name":"RVbackground","path":"sprites/RVbackground/RVbackground.yy",},},
+    {"id":{"name":"Star","path":"sprites/Star/Star.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

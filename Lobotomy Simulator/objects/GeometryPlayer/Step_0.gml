@@ -72,5 +72,6 @@ if not position_meeting(x, bbox_bottom - 16, GeometryBlock) and position_meeting
 }
 
 if place_meeting(x, y, GeometryEnd) or global.addamountmulti == 0 {
+	global.starsadd = global.addamountmulti + 1
 	instance_create_depth(0, 0, -100, Flashbang, {persist : true, roomgoto : RV_Lobbymy})
 }

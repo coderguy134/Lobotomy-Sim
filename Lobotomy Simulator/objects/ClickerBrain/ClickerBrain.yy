@@ -12,8 +12,8 @@
   "name":"ClickerBrain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ClickerObjects",
+    "path":"folders/Objects/ClickerObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -22,4 +22,3 @@ if y == 64 {
 alarm[0] = irandom_range(10, 30)
 
 targetpos = 864
-startpos = x

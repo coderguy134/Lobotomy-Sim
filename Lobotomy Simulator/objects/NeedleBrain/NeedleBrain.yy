@@ -11,8 +11,8 @@
   "name":"NeedleBrain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"NeedleTossObjects",
+    "path":"folders/Objects/NeedleTossObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

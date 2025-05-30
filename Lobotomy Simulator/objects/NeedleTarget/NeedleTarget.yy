@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Maze",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"NeedleTarget",
+  "eventList":[],
   "managed":true,
-  "name":"Maze",
+  "name":"NeedleTarget",
   "overriddenProperties":[],
   "parent":{
-    "name":"ClassicObjects",
-    "path":"folders/Objects/ClassicObjects.yy",
+    "name":"BrainTossObjects",
+    "path":"folders/Objects/BrainTossObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ClassicMazes",
-    "path":"sprites/ClassicMazes/ClassicMazes.yy",
+    "name":"IcePickHit",
+    "path":"sprites/IcePickHit/IcePickHit.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,1 @@
+audio_play_sound(JoeMetriSoundtrack1, 0, 0)

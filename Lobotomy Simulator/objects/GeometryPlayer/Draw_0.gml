@@ -1,0 +1,1 @@
+draw_sprite_ext(LobotomyIcon, 0, x, y, image_xscale, image_yscale, angle, c_white, 1)

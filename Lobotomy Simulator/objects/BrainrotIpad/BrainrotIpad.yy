@@ -10,8 +10,8 @@
   "name":"BrainrotIpad",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"BrainRotObjects",
+    "path":"folders/Objects/BrainRotObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -19,6 +19,4 @@ if abs(targetpos - x) < speed {
 	else {
 		targetpos = 864
 	}
-	
-	startpos = x
 }

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Maze",
+  "%Name":"GeometryCoin",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"GeometryPlayer","path":"objects/GeometryPlayer/GeometryPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Maze",
+  "name":"GeometryCoin",
   "overriddenProperties":[],
   "parent":{
-    "name":"ClassicObjects",
-    "path":"folders/Objects/ClassicObjects.yy",
+    "name":"GeometryDashObjects",
+    "path":"folders/Objects/GeometryDashObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ClassicMazes",
-    "path":"sprites/ClassicMazes/ClassicMazes.yy",
+    "name":"JoeMetriCoin",
+    "path":"sprites/JoeMetriCoin/JoeMetriCoin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

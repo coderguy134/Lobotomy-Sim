@@ -10,7 +10,7 @@ if x > 160 and lobotomized and walk {
 	x -= 3
 }
 if x <= 160 and lobotomized {
-	GameManager.alarm[0] = irandom_range(60, 120)
+	GameManager.alarm[0] = max(irandom_range(60, 120) - global.stars * 5, 1)
 	instance_destroy()
 }
 

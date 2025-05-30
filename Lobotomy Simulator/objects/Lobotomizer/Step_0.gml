@@ -61,7 +61,8 @@ if impact > 0 {
 		game_set_speed(60, gamespeed_fps)
 		
 		//audio_play_sound(LobotomySFX, 0, false)
-		room_goto([ClickerMinigame, IpadMinigame, NeedleTossMinigame, ClassicMinigame, BrainTossMinigame, JoeMetriDash1][irandom_range(1, 5)])
+		alarm[0] = 1
+		room_goto([ClickerMinigame, IpadMinigame, NeedleTossMinigame, ClassicMinigame, BrainTossMinigame, JoeMetriDash1][irandom_range(0, 5)])
 	}
 }
 var target = instance_place(x, y, Customer)

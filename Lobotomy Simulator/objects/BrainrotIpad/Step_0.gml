@@ -1,6 +1,7 @@
 if mouse_check_button_pressed(mb_left) {
 	if point_in_rectangle(mouse_x, mouse_y, x + rotarea * 256 - 64, y - 64, x + rotarea * 256 + 64, y + 64) {
 		global.addamountmulti = 1
+		global.starsadd = 2
 		
 		instance_create_depth(0, 0, -100, Flashbang, {persist : true, roomgoto : RV_Lobbymy})
 	}
@@ -18,6 +19,7 @@ if mouse_check_button_pressed(mb_left) {
 		
 		if clickwrong {
 			global.addamountmulti = 0
+			global.starsadd = 1
 		
 			instance_create_depth(0, 0, -100, Flashbang, {persist : true, roomgoto : RV_Lobbymy})
 		}

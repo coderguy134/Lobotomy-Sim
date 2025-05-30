@@ -33,11 +33,11 @@ if point_distance(x, y, target_x, target_y) <= 10 and destroy == false {
 			game_set_speed(2, gamespeed_fps)
 	
 			global.addamountmulti = instance_position(x, y, NeedleBrain).multi
+			global.starsadd = global.addamountmulti + 1
 			
 			impact = 1
 		}
 	}
-	
 	else {
 		destroy = true
 	}

@@ -1,0 +1,1 @@
+audio_play_sound(FireInTheDeath, 0, 0, 5)

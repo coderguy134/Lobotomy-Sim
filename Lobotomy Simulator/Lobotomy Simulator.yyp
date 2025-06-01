@@ -81,6 +81,7 @@
     {"id":{"name":"FireInTheHole","path":"sounds/FireInTheHole/FireInTheHole.yy",},},
     {"id":{"name":"JoeMetriSoundtrack1","path":"sounds/JoeMetriSoundtrack1/JoeMetriSoundtrack1.yy",},},
     {"id":{"name":"LobotomySFX","path":"sounds/LobotomySFX/LobotomySFX.yy",},},
+    {"id":{"name":"RockOnTheGround","path":"sounds/RockOnTheGround/RockOnTheGround.yy",},},
     {"id":{"name":"WaterOnTheHill","path":"sounds/WaterOnTheHill/WaterOnTheHill.yy",},},
     {"id":{"name":"brain_clicker","path":"sprites/brain_clicker/brain_clicker.yy",},},
     {"id":{"name":"BrainCells","path":"sprites/BrainCells/BrainCells.yy",},},

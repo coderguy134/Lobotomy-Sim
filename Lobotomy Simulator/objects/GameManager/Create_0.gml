@@ -3,7 +3,7 @@ global.cellper = 1
 global.addamountmulti = 1
 global.review = ""
 global.starsadd = 1
-global.stars = 31
+global.stars = 0
 
 alarm[0] = max(irandom_range(60, 120) - global.stars * 5, 1)
 

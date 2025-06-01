@@ -1,10 +1,13 @@
 grav += 1.9
 
 if place_meeting(x, y + grav, GeometryGround) or place_meeting(x, y + grav, GeometryBlock) and grav > 0 {
+	if not place_meeting(x, y + 1, GeometryGround) and not place_meeting(x, y + 1, GeometryBlock) {
+		audio_play_sound(Feet, 0, 0)
+	}
+	
 	while not place_meeting(x, y + 1, GeometryGround) and not place_meeting(x, y + 1, GeometryBlock) {
 		y += 1
 	}
-	
 	grav = 0
 }
 
@@ -33,11 +36,13 @@ if mouse_check_button_pressed(mb_left) or keyboard_check_pressed(vk_space) or ke
 }
 
 if (mouse_check_button(mb_left) or keyboard_check(vk_space) or keyboard_check(vk_up)) and (place_meeting(x, y + 1, GeometryGround) or place_meeting(x, y + 1, GeometryBlock)) and not place_meeting(x, y, GeometryBlock) {
+	audio_play_sound(FireInTheHole, 0, 0, 1, 0, random_range(0.5, 2))
 	grav = -25
 	buffer = false
 }
 
 if buffer and place_meeting(x, y, GeometryOrb) {
+	audio_play_sound(FireInTheHole, 0, 0, 1, 0, random_range(0.5, 2))
 	grav = -24
 	buffer = false
 }
@@ -48,6 +53,7 @@ if grav > 29 {
 
 if place_meeting(x, y, GeometrySpike) or position_meeting(x, bbox_bottom - 16, GeometryBlock) {
 	global.addamountmulti -= 1
+	alarm[1] = 1
 	
 	x = xstart
 	y = ystart
